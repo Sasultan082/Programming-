@@ -1,0 +1,12 @@
+ss=int(input())
+if  3<=ss<=5:   
+    prtint("春")
+elif 6<=ss<=8:
+    print("夏")
+elif 9<=ss<=11:
+    print("秋")
+else:
+    print("冬")
+
+1
+冬
