@@ -1,0 +1,14 @@
+n,a1,a2,a3=map(int,input().split())  
+ss=a1*15+a2*5+a3*13
+if ss>=n:
+  print(0)
+else:
+  change=n-ss
+  c10=change//10
+  change=change%10
+  c5=change//5
+  change=change%5
+  c1=change%5
+  print(c1)
+  print(c5)
+  print(c10)
