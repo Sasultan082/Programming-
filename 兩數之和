@@ -1,0 +1,12 @@
+target, n=map(int,"17 7".split())      
+a=list(map(int,"1 2 5 7 10 15 19".split()))
+found=False
+for i in range(len(a)-1):
+  for j in range(i+1,len(a)):
+    if a[i]+a[j]==target:
+      print(i,j)
+      break
+  if found:
+    break
+1 5
+3 4
